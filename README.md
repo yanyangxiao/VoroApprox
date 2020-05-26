@@ -5,5 +5,5 @@ Implementation of paper "Zhonggui Chen, Yanyang Xiao, Juan Cao. Approximation by
 CGAL
 
 # Compile
-Make sure CGAL has successfully been installed in your computer, then just build the project using CMake
+Make sure CGAL has successfully been installed in your computer, then just build the project by using CMake
 
