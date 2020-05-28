@@ -21,6 +21,9 @@ Just build the project by using CMake
 
 # Useage
 (1) load image -> init -> optimize to run the algorithm;
+
 (2) after running algorithm, click 'approximate' button to compute an approximating image;
+
 (3) scroll mouse middle button to zoom in and out; press mouse right button with motion to translate;
+
 (4) left Alt + scroll mouse middle button to change point size; right Alt + scroll mouse middle button to change line width;
