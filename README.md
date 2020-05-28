@@ -2,15 +2,16 @@
 Implementation of paper "Zhonggui Chen, Yanyang Xiao, Juan Cao. Approximation by Piecewise Polynomials on Voronoi Tessellation. Graphical Models (Proc. GMP 2014), 76(5), 522-531, 2014"
 
 if you use the code, please cite
-@article{chen2014approximation,
-   title={Approximation by piecewise polynomials on Voronoi tessellation},
-   author={Chen, Zhonggui and Xiao, Yanyang and Cao, Juan},
-   journal={Graphical models},
-   volume={76},
-   number={5},
-   pages={522-531},
-   year={2014},
-   publisher={Elsevier}
+
+@article{chen2014approximation, <br>
+   title={Approximation by piecewise polynomials on Voronoi tessellation}, <br>
+   author={Chen, Zhonggui and Xiao, Yanyang and Cao, Juan}, <br>
+   journal={Graphical models}, <br>
+   volume={76}, <br>
+   number={5}, <br>
+   pages={522-531}, <br>
+   year={2014}, <br>
+   publisher={Elsevier} <br>
 }
 
 # Examples
