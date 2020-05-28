@@ -26,7 +26,7 @@ add_subdirectory(voronoi)
 
 add_subdirectory(renders)
 
-add_subdirectory(function-version)
+# add_subdirectory(function-version)
 
 add_subdirectory(image-version)
 
