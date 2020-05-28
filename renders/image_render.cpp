@@ -69,7 +69,21 @@ namespace xyy
 		}
 		else if (channel == 1)
 		{
-			glTexImage2D(GL_TEXTURE_2D, 0, GL_R8, width, height, 0, GL_R8, GL_UNSIGNED_BYTE, data);
+			//glTexImage2D(GL_TEXTURE_2D, 0, GL_R8, width, height, 0, GL_R8, GL_UNSIGNED_BYTE, data);
+			int N = width * height;
+			unsigned char *rgb = new unsigned char[N * 3];
+
+			for (int i = 0; i < N; ++i)
+			{
+				rgb[3 * i] = data[i];
+				rgb[3 * i + 1] = data[i];
+				rgb[3 * i + 2] = data[i];
+			}
+
+			glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, rgb);
+
+			delete[] rgb;
+			rgb = NULL;
 		}
 		glGenerateMipmap(GL_TEXTURE_2D);
 
