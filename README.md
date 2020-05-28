@@ -13,6 +13,11 @@ if you use the code, please cite
    publisher={Elsevier}
 }
 
+# Examples
+![init](examples/elephant-init.png)
+![Voronoi result](examples/elephant-result.png)
+![approximating result](examples/elephant-output.png)
+
 # Requirements
 CGAL
 
