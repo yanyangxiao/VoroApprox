@@ -15,9 +15,11 @@ if you use the code, please cite
 }
 
 # Examples
-![init](examples/elephant-init.png)
-![Voronoi result](examples/elephant-result.png)
-![approximating result](examples/elephant-output.png)
+![](examples/elephant-init.png)
+![](examples/elephant-result.png)
+![](examples/elephant-output.png)
+![](examples/lena-output.png)
+![](examples/girl-output.png)
 
 # Requirements
 CGAL
